@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+body{font-family: 'Stylish',sans-serif;
+color: white;
+background-color:#353731;
+user-select: none;
+  
+}
+#main {
+  display: grid;
+  
+  justify-content: center;
+  
+  align-items: center;
+  top: 0px;
+  left:3%;
+  width: 97%;
+  height: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  
+}
+  input[type="number"] {color: #D9E086;
+  background-color: transparent;
+  outline: 0px solid dimgray;
+  border: 0px solid darkorange;
+  border-bottom: 2px solid #fff;
+  text-indent: 8px;
+  height: 33px;
+  border-radius: 3px;
+  user-select: text;
+    
+  }
+  button {color: inherit;
+  height: 40px;
+  margin: 15px 0px 15px 0px;
+  width: 35%;
+  outline: 0px solid red;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  background-color: transparent;
+    
+  }
+  button:hover {background-color: white;
+  color: #353731;
+  transition: 1s all;
+    
+  }
+  #link{height: 30px;
+  border: 0px solid #fff;
+  border-bottom: 1.5px solid #fff;
+  outline: 0px solid yellow;
+  font-size: 15px;
+  width: 100%;
+  background-color: transparent;
+  color: #D9E086;
+    
+  }
+  .a, .a:visited, .a:hover, .a:active { color: #D9E086;
+    
+  }
+  td>a {color: white;
+  text-decoration: none;
+  font-size: 140%;
+    
+  }
+  nav{text-align: center;
+    
+  }
+  table {text-align: center;
+  width: 100%;
+  margin: 5px auto;
+  border-collapse: collapse;
+    
+  }

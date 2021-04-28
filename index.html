@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://purepng.com/public/uploads/thumbnail/purepng.com-circled-whatsapp-logologosiconsflat-designcircled-logoscircled-iconsiconflatminimalistlogo-design-311519937091r8rks.png" rel="shortcut icon" sizes="190x190" />
+  <title>Check WhatsApp Numbers</title>
+  
+  <script src="https://kit.fontawesome.com/cf8cb17af7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="main" id="main">
+   <div id="what" style="width: calc(100% - 40px); max-width: 600px;">
+    <h1><i class="fab fa-whatsapp"> </i> Check Numbers</h1>
+    <hr />
+    <p>Insert the Number and <a class="a" href="https://en.m.wikipedia.org/wiki/List_of_country_calling_codes#Alphabetical_listing_by_country_or_region">Prefix</a></p>
+    <p>Certain only Numbers (0-9)*<br />
+    Example:- for +91(india) 9876543210 write 91 9876543210</p><br />
+    <label for="code">Country Code :</label><br />
+    <i id="dec" style=""> + </i>
+    <input type="number" id="code" value="91" style="width: 50%;" placeholder="country code" onkeyup="kyup()" /><br /><br />
+    <label for="number">Number :</label><br />
+    <input type="number" id="number" placeholder="Number" style="width: 100%;" onkeyup="kyup()"/><br />
+    <p>Link is: <input id="link" onclick="cpy()" placeholder="https://wa.me/" /></p>
+    <button id="open" style="width: 60%;" onclick="opn()">Open WhatsApp <i class="fab fa-whatsapp"> </i></button>
+    <button id="copy" onclick="cpy()" style="float: right;">Copy <i class="far fa-copy"> </i></button><br />
+    <p>   If you see any error or problem of any kind, then send us a <a href="#"  class="a" onclick="mes()">Message</a> and you can also <a class="a" href="mailto:monusharma52ji@outlook.com">email</a> us.</p>
+    <nav id="about">
+      Contact Us. <br />
+      <table><tr id="tr">
+        <td><a href="https://www.facebook.com/profile.php?id=100017749837315"><i class="fab fa-facebook"></i></a></td>
+        <td><a href="https://www.instagram.com/monu_sharma__/"><i class="fab fa-instagram"></i></a></td>
+        <td><a href="https://github.com/Monu-Parashar"><i class="fab fa-github"></i></a></td>
+          <td><a href="https://codepen.io/MonuSharma"><i class="fab fa-codepen"></i></a></td>
+          <td><a href="mailto: monusharma52ji@outlook.com"><i class="fas fa-at"></i></a></td>
+        </tr>
+      </table>
+      
+      &copy; 2021 by <span style="color:#D9E086; ">Monu Sharma</span><br />
+      thank you.
+    </nav>
+  </div>
+ </div>
+ <script src="main.js"></script>
+</body>
+</html>
