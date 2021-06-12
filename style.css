@@ -24,7 +24,7 @@ user-select: none;
   background-color: transparent;
   outline: 0px solid dimgray;
   border: 0 solid darkorange;
-  border-bottom: 2 solid #fff;
+  border-bottom: 2px solid #fff;
   text-indent: 8px;
   height: 33px;
   border-radius: 3px;
